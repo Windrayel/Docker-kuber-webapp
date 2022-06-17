@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web
+spec:
+  containers:
+  - name: web
+    image: windrayel/web:1.0.0
+    imagePullPolicy: IfNotPresent
